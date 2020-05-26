@@ -1,0 +1,97 @@
+@media ( max-width:1200px) {
+    /* .nav-item .nav-link{
+        padding: 17px 5px 17px 30px;
+        background-color: orange !important;
+    } */
+}
+
+
+
+@media ( max-width:992px) {
+
+    .logo img {
+        height: auto;
+        width: 92px;
+    }
+
+    .icons svg:not(:root).svg-inline--fa {
+        margin-left: 14px;
+        font-size: 18px;
+    }
+
+    .nav-link {
+        display: block;
+        padding: .5rem 10px !important;
+    }
+
+    header .container{
+        width: 100% !important;
+    }
+    
+
+}
+
+@media ( max-width:768px) {
+
+    .navbar {
+        background-color: white;
+        position: relative;
+        padding: 10px 0px;
+    }
+
+    .logo {
+        height: 60px;
+    }
+
+    .f-shirt{
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer .logo {
+        margin: 0px auto;
+    }
+
+    .icons {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    header .container{
+        width: 100%;
+    }
+
+    
+    .nav-link {
+        padding: 0px 5px !important;
+    }
+
+    .topnav, .logo, .rightnav {
+        border: 0px;
+    }
+    
+    .logo{
+        display: none;
+    }
+
+    .navbar-brand{
+        display: block;
+    }
+
+    .shirts{
+        margin-bottom: 20px;
+    }
+
+}
